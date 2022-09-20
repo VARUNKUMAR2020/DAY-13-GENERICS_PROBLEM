@@ -16,6 +16,7 @@ public class Generics {
 		System.out.println("GENERIC METHOD BASED PROBLEM");
 		Generics g = new Generics();
 		System.out.println("GREATEST NUMBER IS : " +g.maximum(10,78,45));
-		System.out.println("GREATEST NUMBER IS : " +g.maximum(156,168,145));
+		System.out.println("GREATEST WORD IS : " +g.maximum("VARUN","KUMAR","BRIDELABZ"));
+		System.out.println("GREATEST FLOAT IS : " +g.maximum(12.5,165.2,145.98));
 	}
 }
